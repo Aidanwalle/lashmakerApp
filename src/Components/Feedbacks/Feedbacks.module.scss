@@ -1,0 +1,26 @@
+.Feedbacks {
+  background-color: inherit;
+  .feedbacksBlockBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+
+    .feedBackBubble {
+      position: relative;
+      width: 80%;
+    }
+    .feedBackBubble:nth-of-type(even) {
+      margin-right: 60px;
+    }
+    .feedBackBubble:nth-of-type(odd) {
+      margin-left: 60px;
+    }
+    img {
+      margin: 10px 10px;
+      max-width: 100%;
+    }
+  }
+}
