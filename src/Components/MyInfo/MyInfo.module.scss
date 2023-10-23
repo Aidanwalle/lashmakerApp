@@ -1,5 +1,4 @@
 .myInfo {
-  // z-index: 2;
   height: 100vh;
   text-align: center;
   background-image: url("../../Assets/images/avatar.jpg");
@@ -12,7 +11,7 @@
     p {
       position: absolute;
       right: 15px;
-      color: rgba($color: #FBE4D8, $alpha: 0.9);
+      color: rgba($color: #fbe4d8, $alpha: 0.9);
     }
 
     h1 {
@@ -79,5 +78,22 @@
   }
   to {
     opacity: 0;
+  }
+}
+
+@media (min-width: 415px) {
+  .myInfo {
+    .myPhoto {
+      h1,
+      h2,
+      p {
+        display: none;
+      }
+    }
+    .arrow1,
+    .arrow2,
+    .arrow3 {
+      display: none;
+    }
   }
 }

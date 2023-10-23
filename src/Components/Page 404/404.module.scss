@@ -1,0 +1,37 @@
+.pageThatIsNot {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff5e8;
+  .textBlock {
+    width: 80%;
+    h1 {
+      font-size: calc(150px + 2vmin);
+      margin: 0;
+    }
+    p {
+      font-size: calc(14px + 2vmin);
+      margin: 0;
+    }
+    button {
+      background-color: rgba($color: #000000, $alpha: 0.8);
+      border: none;
+      border-radius: 10px;
+      height: 60px;
+      width: 160px;
+      margin-top: 40px;
+      color: rgba($color: white, $alpha: 0.9);
+      font-size: calc(14px + 2vmin);
+    }
+    button:active {
+        background-color: rgba($color: #000000, $alpha: 0.4);
+    }
+  }
+
+  img {
+    width: 80%;
+  }
+}

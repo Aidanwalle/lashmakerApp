@@ -5,5 +5,28 @@
   text-align: center;
   font-family: Roboto;
   font-size: calc(14px + 2vmin);
-  background-color: #FBE4D8;
+  background-color: #dfccbe;
+  // background-color: #FBE4D8;
+
+  .hiddenWrapper {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    color: rgba($color: #000000, $alpha: 0.8);
+    font-family: Roboto;
+    font-size: calc(14px + 2vmin);
+    .smallText {
+      font-size: calc(3px + 2vmin);
+    }
+  }
+}
+
+@media (min-width: 415px) {
+  .AppWrapper {
+    .hiddenWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
 }

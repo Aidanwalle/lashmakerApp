@@ -17,7 +17,7 @@ function MyWorks({ carouselImages }) {
       </ul>
       <div className={s.myWorksBlockBody}>
         {carouselImages.map((image) => (
-          <img src={image} alt="Реснички" />
+          <img src={image} alt="Реснички" key={image}/>
         ))}
       </div>
     </div>
