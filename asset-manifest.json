@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/lashmakerApp/static/css/main.06d01e28.css",
-    "main.js": "/lashmakerApp/static/js/main.d54bbde0.js",
+    "main.css": "/lashmakerApp/static/css/main.4169abf0.css",
+    "main.js": "/lashmakerApp/static/js/main.4acfa262.js",
     "static/js/787.728c5ba8.chunk.js": "/lashmakerApp/static/js/787.728c5ba8.chunk.js",
     "static/media/avatar.jpg": "/lashmakerApp/static/media/avatar.7252d03a27a555bf24bd.jpg",
     "static/media/work(4).jpg": "/lashmakerApp/static/media/work(4).92f5eb7cd70cacf163f3.jpg",
     "static/media/work(2).jpg": "/lashmakerApp/static/media/work(2).b91d2d4fcfc04cbf4903.jpg",
     "static/media/work(3).jpg": "/lashmakerApp/static/media/work(3).176ce4750b5ee3ea2460.jpg",
     "static/media/work(1).jpg": "/lashmakerApp/static/media/work(1).83758746931c9b9c7486.jpg",
+    "static/media/cat(2).png": "/lashmakerApp/static/media/cat(2).039225161bc2a0d8a6d4.png",
     "static/media/left-medium.png": "/lashmakerApp/static/media/left-medium.9f2a2106dc16371ec5e8.png",
     "static/media/right-medium.png": "/lashmakerApp/static/media/right-medium.7c091aa7fc80e52bf752.png",
+    "static/media/cat(1).png": "/lashmakerApp/static/media/cat(1).6cba9c947c20ea29530a.png",
+    "static/media/cat(3).png": "/lashmakerApp/static/media/cat(3).19531bb83ff9ed67616f.png",
     "static/media/left-small.png": "/lashmakerApp/static/media/left-small.342cf5dbd50af37e8758.png",
     "static/media/right-small.png": "/lashmakerApp/static/media/right-small.9097fcaee73542553f89.png",
     "static/media/viber.svg": "/lashmakerApp/static/media/viber.3b390926d17df9377d591c4d00b2ac8b.svg",
@@ -18,12 +21,12 @@
     "static/media/telegram.svg": "/lashmakerApp/static/media/telegram.5e5ca9ed0f6ce84cc4b0de0694c32e4b.svg",
     "index.html": "/lashmakerApp/index.html",
     "static/media/arrows-up.svg": "/lashmakerApp/static/media/arrows-up.14f5bb8b9a440b7d58de0a521c066fb8.svg",
-    "main.06d01e28.css.map": "/lashmakerApp/static/css/main.06d01e28.css.map",
-    "main.d54bbde0.js.map": "/lashmakerApp/static/js/main.d54bbde0.js.map",
+    "main.4169abf0.css.map": "/lashmakerApp/static/css/main.4169abf0.css.map",
+    "main.4acfa262.js.map": "/lashmakerApp/static/js/main.4acfa262.js.map",
     "787.728c5ba8.chunk.js.map": "/lashmakerApp/static/js/787.728c5ba8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06d01e28.css",
-    "static/js/main.d54bbde0.js"
+    "static/css/main.4169abf0.css",
+    "static/js/main.4acfa262.js"
   ]
 }
