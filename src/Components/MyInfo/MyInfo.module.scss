@@ -16,7 +16,7 @@
 
     h1 {
       font-size: calc(40px + 2vmin);
-      bottom: 100px;
+      bottom: 70px;
     }
     h2 {
       font-size: calc(25px + 2vmin);
@@ -83,17 +83,14 @@
 
 @media (min-width: 415px) {
   .myInfo {
-    .myPhoto {
-      h1,
-      h2,
-      p {
-        display: none;
-      }
-    }
+    background-image: url("../../Assets/images/avatar-horizontal.jpg");
+    background-position: center center;
+
     .arrow1,
     .arrow2,
     .arrow3 {
-      display: none;
+      left: 30px;
+      width: 5%;
     }
   }
 }

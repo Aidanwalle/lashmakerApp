@@ -32,7 +32,6 @@
       width: 85%;
       border-radius: 20px;
       padding-right: 10px;
-      
     }
     img:first-of-type {
       margin-left: 10px;
@@ -49,5 +48,29 @@
   ul,
   li {
     font-size: calc(10px + 2vmin);
+  }
+}
+
+@media (min-width: 415px) {
+  .myWorks {
+    position: static;
+    p {
+      margin: 15px 10px;
+    }
+    .myWorksBlockText {
+      height: 100vh;
+      background-color: #dfccbe;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .myWorksBlockBody {
+      height: 100vh;
+      background-color: #b38875;
+      img {
+        height: 90vh;
+      }
+      align-items: center;
+    }
   }
 }

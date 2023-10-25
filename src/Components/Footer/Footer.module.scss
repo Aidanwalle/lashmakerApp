@@ -24,3 +24,11 @@
     }
   }
 }
+
+@media (min-width: 415px) {
+  .footer {
+    .SocialMediaWrapper {
+      flex-direction: row;
+    }
+  }
+}

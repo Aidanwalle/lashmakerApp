@@ -1,0 +1,26 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: #3a3a3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    color: white;
+    background-color: #3a3a3a;
+    width: 20%;
+    height: 10%;
+    font-size: calc(12px + 2vmin);
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+  }
+
+  .shiningCoral:hover {
+    background-color: #96ffff;
+    box-shadow: 0 0 5px #96ffff, 0 0 25px #96ffff, 0 0 50px #96ffff,
+      0 0 200px #96ffff;
+  }
+}

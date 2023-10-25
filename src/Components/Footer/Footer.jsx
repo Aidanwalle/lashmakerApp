@@ -2,10 +2,10 @@
 import s from "./Footer.module.scss";
 
 //Import images
-import { ReactComponent as InstagramLogo } from "../../Assets/icons/instagram.svg";
-import { ReactComponent as ViberLogo } from "../../Assets/icons/viber.svg";
-import { ReactComponent as TelegramLogo } from "../../Assets/icons/telegram.svg";
-import { ReactComponent as WhatsAppLogo } from "../../Assets/icons/whatsapp.svg";
+import instagram from "../../Assets/icons/instagram.png";
+import viber from "../../Assets/icons/viber.png";
+import telegram from "../../Assets/icons/telegram.png";
+import whatsapp from "../../Assets/icons/whatsapp.png";
 
 function Footer() {
   return (
@@ -13,25 +13,25 @@ function Footer() {
       <div className={s.SocialMediaWrapper}>
         <div className={s.socialMediaBlock}>
           <a href="instagram.com">
-            <InstagramLogo className={s.socialMediaIcon} />
+            <img src={instagram} className={s.socialMediaIcon} alt='instagram'/>
           </a>
           <p>Instagram</p>
         </div>
         <div className={s.socialMediaBlock}>
           <a href="viber.com">
-            <ViberLogo className={s.socialMediaIcon} />
+            <img src={viber}  className={s.socialMediaIcon} alt='viber'/>
           </a>
           <p>Viber</p>
         </div>
         <div className={s.socialMediaBlock}>
           <a href="telegram.com">
-            <TelegramLogo className={s.socialMediaIcon} />
+            <img src={telegram}  className={s.socialMediaIcon} alt='telegram'/>
           </a>
           <p>Telegram</p>
         </div>
         <div className={s.socialMediaBlock}>
           <a href="whatsapp.com">
-            <WhatsAppLogo className={s.socialMediaIcon} />
+            <img src={whatsapp}  className={s.socialMediaIcon} alt='whatsapp'/>
           </a>
           <p>WhatsApp</p>
         </div>

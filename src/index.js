@@ -1,13 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { puzzledCatImages } from "./Components/Resources/Images/Images";
+import PageThatIsNot from "./Components/Page 404/404";
+import ShiningButton from "./Components/TestComponents/ShiningButton/Button";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <PageThatIsNot puzzledCatImages={puzzledCatImages} />,
+  },
+  {
+    path: "/test",
+    element: <ShiningButton />,
+  }
+]);
+
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
